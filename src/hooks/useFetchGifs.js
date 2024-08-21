@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getGifs } from '../getGifs';
+import { getGifs } from '../helpers/getGifs';
 
 // a custom hook is just a function
 export const useFetchGifs = (category) => {
